@@ -1,4 +1,4 @@
-;;; pytest.el --- pytest adapter  -*- lexical-binding:t -*-
+;;; testrun-pytest.el --- pytest adapter  -*- lexical-binding:t -*-
 ;;;
 ;;; Version: 1
 ;;;
@@ -40,5 +40,6 @@
             (app treesit-node-children `(,_ ,x ,_ ,_ ,_)))
        (treesit-node-text x t)))))
 
+(provide 'testrun-pytest)
 
-;;; pytest.el ends here
+;;; testrun-pytest.el ends here

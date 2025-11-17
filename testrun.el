@@ -8,7 +8,8 @@
 
 (require 'compile)
 (require 'treesit)
-
+(require 'testrun-golang)
+(require 'testrun-pytest)
 
 ;;;; Customization
 

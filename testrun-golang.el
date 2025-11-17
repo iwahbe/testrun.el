@@ -1,4 +1,4 @@
-;;; golang.el --- golang adapter  -*- lexical-binding:t -*-
+;;; testrun-golang.el --- golang adapter  -*- lexical-binding:t -*-
 ;;;
 ;;; Version: 1
 ;;;
@@ -318,5 +318,6 @@ effort is made to solve the expression.  The algorithm is as follows:
      (treesit-node-text x t))
     (_ nil)))
 
+(provide 'testrun-golang)
 
-;;; golang.el ends here
+;;; testrun-golang.el ends here

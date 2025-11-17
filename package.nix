@@ -4,7 +4,7 @@ epkgs.elpaBuild {
   pname = "testrun";
   ename = "testrun";
   version = version;
-  src = [ ./testrun.el ./golang.el ./pytest.el ];
+  src = ./.;
   packageRequires = [];
   meta = {};
 }
